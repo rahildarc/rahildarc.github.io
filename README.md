@@ -67,7 +67,7 @@
     <main>
         <section id="home">
             <h2>Home</h2>
-            <p>Welcome to Rahil Tech Hacks, your source for tech hacks and tutorials.</p>
+            <p>Your ultimate hub for the latest in tech hacks, tricks, and tutorials.Technology Insights, Latest Videos,Programming Tips,App Reviews,Internet Blogs</p>
         </section>
         <section id="blog">
             <h2>Blog</h2>
