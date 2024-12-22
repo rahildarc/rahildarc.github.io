@@ -4,12 +4,12 @@ theme: minima
 baseurl: "/rahil-tech-hacks" # Change this to your repository name
 url: "https://username.github.io" # Replace with your GitHub username
 author: Shahid Bashir
-email: your-email@example.com
+email: .com
 
 # Social Links (Optional)
 social_links:
-  youtube: "https://www.youtube.com/channel/your-channel-id"
-  github: "https://github.com/username"
+  youtube: "https://youtube.com/@rahil_tech_hacks?si=gqnaBfRpyRj3ftDa/UCg3CbOCbETw3di4Kco1sKdQ"
+  github: "https://github.com/rahildarc"
   twitter: "https://twitter.com/your-twitter-handle"
 
 # Plugins (Optional)
