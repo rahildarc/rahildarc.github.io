@@ -85,7 +85,7 @@
             <h2>Contact</h2>
             <p>Email: <a href="mailto:contact@rahiltechhacks.com">contact@rahiltechhacks.com</a></p>
             <p>Instagram: <a href="https://www.instagram.com/rahil_.dar?igsh=MWhkYzhueXZ4c3dvNw==">Rahil_.Dar</a></p>
-            <p>Facebook: <a href="https://www.facebook.com/share/15q7joM2xF/?mibextid=qi20mg">Rahil Dar</a></p>
+            <p>Facebook: <a href="https://www.facebook.com/share/15q7joM2xF/?mibextid=qi20mg">RahilDar</a></p>
         </section>
         <section id="about">
             <h2>About</h2>
