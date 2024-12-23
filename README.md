@@ -3,103 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attractive Website</title>
+    <title>Rahil Tech Hacks</title>
     <style>
-        /* Global Styles */
         body {
-            font-family: 'Poppins', sans-serif;
+            background-image: url('images/rahiltech.jpg');
+            background-size: cover; /* Makes sure the image covers the whole background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
-            color: #fff;
+            font-family: Arial, sans-serif;
+            color: white; /* Change text color for better visibility */
             text-align: center;
         }
-
         header {
-            background-color: rgba(0, 0, 0, 0.7);
             padding: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
         }
-
-        header h1 {
-            font-size: 2.5em;
-            letter-spacing: 2px;
-            margin: 0;
-        }
-
-        header p {
-            font-size: 1.2em;
-            margin-top: 10px;
-            color: #ccc;
-        }
-
-        /* Main Content */
-        main {
-            padding: 50px 20px;
-        }
-
-        main h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-
-        main p {
-            font-size: 1.1em;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto 20px;
-        }
-
-        /* Buttons */
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background: #ff7f50;
-            color: #fff;
+        nav a {
+            margin: 0 15px;
+            color: white;
             text-decoration: none;
-            font-size: 1em;
-            border-radius: 30px;
-            transition: 0.3s;
         }
-
-        .button:hover {
-            background: #ff4500;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        nav a:hover {
+            text-decoration: underline;
         }
-
-        /* Footer */
+        section {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+            margin: 20px;
+            border-radius: 10px;
+        }
         footer {
-            background-color: rgba(0, 0, 0, 0.8);
             padding: 20px;
-            font-size: 0.9em;
-            color: #aaa;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
         }
-
-        footer a {
-            color: #ff7f50;
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+        }
+        a {
+            color: lightblue;
             text-decoration: none;
         }
-
-        footer a:hover {
+        a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
-        <p>Your one-stop solution for great content!</p>
+        <h1>Welcome to Rahil Tech Hacks</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#blog">Blog</a>
+            <a href="#shop">Shop</a>
+            <a href="#videos">Videos</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </nav>
     </header>
-
     <main>
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet nisi eget erat tincidunt tincidunt. Proin a diam et sapien auctor viverra at sit amet nunc.</p>
-        <a href="#" class="button">Learn More</a>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to Rahil Tech Hacks, your source for tech hacks and tutorials.</p>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Read our latest blog posts.</p>
+        </section>
+        <section id="shop">
+            <h2>Shop</h2>
+            <p>Check out our merchandise.</p>
+        </section>
+        <section id="videos">
+            <h2>Latest Videos</h2>
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:contact@rahiltechhacks.com">contact@rahiltechhacks.com</a></p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Learn more about Rahil Tech Hacks and our mission.</p>
+        </section>
+        <section id="social-media">
+            <h2>Follow Us</h2>
+            <p>
+                <a href="https://github.com/your-github" target="_blank">GitHub</a> |
+                <a href="https://facebook.com/your-facebook" target="_blank">Facebook</a> |
+                <a href="https://instagram.com/your-instagram" target="_blank">Instagram</a>
+            </p>
+        </section>
     </main>
-
     <footer>
-        <p>© 2024 Your Website. Designed with love. <a href="#">Privacy Policy</a></p>
+        <p>&copy; 2024 Rahil Tech Hacks. All rights reserved.</p>
     </footer>
 </body>
 </html>
