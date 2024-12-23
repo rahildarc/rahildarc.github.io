@@ -6,7 +6,6 @@
     <title>Rahil Tech Hacks</title>
     <style>
         body {
-background-color:red;
             background-image: url('rahiltech.jpg');
             background-size: cover; /* Makes sure the image covers the whole background */
             background-position: center; /* Centers the image */
@@ -45,7 +44,7 @@ background-color:red;
             border: none;
         }
         a {
-            color: black;
+            color: red;
             text-decoration: none;
         }
         a:hover {
