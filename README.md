@@ -13,7 +13,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            color: black; /* Change text color for better visibility */
+            color: white; /* Change text color for better visibility */
             text-align: center;
         }
         header {
