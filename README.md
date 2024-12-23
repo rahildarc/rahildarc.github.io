@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +44,7 @@
             border: none;
         }
         a {
-            color: black;
+            color: lightblue;
             text-decoration: none;
         }
         a:hover {
