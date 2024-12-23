@@ -44,7 +44,7 @@
             border: none;
         }
         a {
-            color: lightblue;
+            color: black;
             text-decoration: none;
         }
         a:hover {
