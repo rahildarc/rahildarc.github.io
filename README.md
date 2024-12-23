@@ -13,7 +13,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            color: white; /* Change text color for better visibility */
+            color: red; /* Change text color for better visibility */
             text-align: center;
         }
         header {
@@ -44,7 +44,7 @@
             border: none;
         }
         a {
-            color: red;
+            color: arial blue;
             text-decoration: none;
         }
         a:hover {
