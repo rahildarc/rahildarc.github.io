@@ -1,19 +1,24 @@
-title: Rahil Tech Hacks
+title: "Rahil Tech Hacks"
 description: "Your source for programming tutorials, hacking tips, and tech guides."
 theme: minima
-baseurl: "/rahil-tech-hacks" # Change this to your repository name
-url: "https://username.github.io" # Replace with your GitHub username
-author: Shahid Bashir
-email: your-email@example.com
+baseurl: "/rahil-tech-hacks"
+url: "https://username.github.io/rahil-tech-hacks"
 
-# Social Links (Optional)
+author: "Shahid Bashir"
+email: "your-email@example.com"
+
 social_links:
   youtube: "https://www.youtube.com/channel/your-channel-id"
   github: "https://github.com/username"
   twitter: "https://twitter.com/your-twitter-handle"
 
-# Plugins (Optional)
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
+
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
